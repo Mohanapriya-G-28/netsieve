@@ -1,0 +1,36 @@
+{
+  "name": "netsieve",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "NetSieve: Interactive Transport Layer Laboratory (TCP vs UDP)",
+  "scripts": {
+    "dev": "vite --port=3000 --host=0.0.0.0",
+    "gateway": "tsx server/gateway.ts",
+    "test:tcp": "tsx server/testTcp.ts",
+    "test:udp": "tsx server/testUdp.ts",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.1",
+    "better-sqlite3": "^13.0.3",
+    "lucide-react": "^0.546.0",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/ws": "^8.5.14",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

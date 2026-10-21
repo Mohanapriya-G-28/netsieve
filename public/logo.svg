@@ -1,0 +1,25 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="convoraGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF527B" />
+      <stop offset="55%" stop-color="#D92253" />
+      <stop offset="100%" stop-color="#8F1238" />
+    </linearGradient>
+    <linearGradient id="convoraGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFA4B8" />
+      <stop offset="100%" stop-color="#FF4B72" />
+    </linearGradient>
+  </defs>
+
+  <!-- 'C' Lettermark with Integrated Dialogue Bubble Tail -->
+  <path
+    d="M72 26 C 60 14, 40 14, 26 26 C 14 38, 14 62, 26 74 L 16 84 L 34 80 C 44 86, 60 86, 72 74"
+    stroke="url(#convoraGrad1)"
+    stroke-width="12"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Inner Real-time Conversation Presence Node -->
+  <circle cx="49" cy="50" r="6" fill="url(#convoraGrad2)" />
+</svg>
